@@ -1,0 +1,363 @@
+/* nav */
+
+.container-fluid{
+    margin-left: 100px;
+}
+.sub-nav{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px; 
+}nav{
+    position: fixed;
+}
+/* main */
+#main{
+    height: 700px;
+    background-color: #fff;
+    ;
+}
+
+.symbol2{
+width: 200px;
+height: 200px;
+position: relative;left: 500px;
+
+}
+
+.heading{
+    text-align: center;
+    color: #00b39b ;
+    word-spacing: 2px;
+    font-family: Roboto,Arial,sans-serif;   
+
+}
+
+h5, h4, h3, h2, h6{
+
+  font-weight: 200;
+;
+
+  
+}
+.article{
+    display: flex;
+    padding:7px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    word-spacing: 2px;
+    line-height: 1.75;
+    
+
+}
+
+
+    .section-intro{
+        display: flex;
+        margin-top: 100px;
+        margin-left: 0px;
+        word-spacing: 2px;
+        color: #fff; 
+        
+
+
+
+        
+      /* first three boxes   */
+    }
+    .customer{
+        width: 290px;
+        height: 300px;
+        background-color:  #00b39b;
+        
+        position: relative;left: 200px;
+        border-radius: 10px;
+
+    
+    }
+    .customer-symbol{
+      width: 100px;
+      height: 100px;
+    }
+    .customer-content{
+      text-align: center;
+      font-weight: 100;
+
+    }
+  
+     .web-developers{
+        width: 290px;
+        height: 300px;
+        background-color: #3d83df;
+        
+        position: relative;left: 220px;
+        border-radius: 10px;
+
+     }
+
+     .web-developers-symbol{
+      width: 50px;
+      height: 50px;
+    }
+    .web-developers-content{
+      text-align: center;
+      margin-top: 20px;
+
+    }
+      .contract{
+        width: 290px;
+        height: 300px;
+        background-color:  #1b2734 ;
+        position: relative;left: 240px;
+        border-radius: 8px;
+
+      }
+
+      .contract-symbol{
+        width: 100px;
+        height: 100px;
+      }
+      .contract-content{
+        text-align: center;
+       
+      }
+
+      /* middle-container */
+
+      .middle-container{
+        height: 700px;
+        background-color: #e5faf8;
+
+        display:flex;
+        margin-top: 200px;        
+          
+      }
+
+       .aside-article{
+        width: 600px;
+        background-color: #e5faf8;
+        height: auto;
+        
+       }
+    .aside-content{
+     margin: 50px 0 0 100px;
+    }
+    .what-we-do{
+        margin-top: 20px;
+    }
+    .house{
+        width: 600px;
+        height: 600px;
+        position:relative;
+        bottom: 100px;
+    }
+
+      .column1{
+        display: flex;
+        flex-direction: column;
+        position: relative; left: 0px;
+        margin-top: 50px;
+      }
+       .contries{
+        width: 250px;
+        height: 260px;
+        background-color:#fff;
+        border-radius: 8px;
+       }
+       .countries-content{
+        text-align: center;
+       }
+
+       .counries-image{
+        width: 100px;
+        height: 100px;
+       }
+      
+      .customers{
+        width: 250px;
+        height: 260px;
+        background-color: #fff;
+        margin-top: 20px;
+        border-radius: 8px;
+      }
+      .customers-content{
+        text-align: center;
+      }
+      .customer-image{
+        width: 100px;
+        height: 100px;
+      }
+
+
+
+       .column2{
+        display: flex;
+        flex-direction: column;
+        position: relative; left:20px;
+        margin-top: 20px;
+
+       }
+      .appointment{
+        width: 250px;
+        height: 260px;
+        background-color: #fff;
+        border-radius: 8px;
+
+      }
+      .appointment-content{
+       text-align: center;
+      }
+      .appointment-image{
+        width: 100px;
+        height: 100px;
+      }
+
+
+      .active-developer{
+        width: 250px;
+        height: 260px;
+        background-color: #fff;
+        margin-top: 20px;
+        border-radius: 8px;
+      }
+
+      .active-developer-content{
+        text-align: center;
+      }
+
+      .active-developer-image{
+        width: 100px;
+        height: 100px;
+      }
+
+      /* ................ */
+
+      .testimony{
+        height: 300px;
+      }
+      .our-achievement{
+        text-align: center;
+        margin-top: 100px;
+      }
+      .teams{
+        margin-top: 30px;
+      }
+      /* row1 */
+      .row1{
+       display:flex;
+       flex-direction: row;
+       justify-content: space-around;
+
+
+      }
+
+      .bluewater-house{
+        width: 300px;
+        height: 310px;
+        border-radius: 8px;
+        position: relative;left: 100px;
+
+
+      }
+
+      .light-house{
+        width: 300px;
+        height: 310px;
+        border-radius: 8px;
+      }
+
+      .palm-house{
+        width: 300px;
+        height: 310px;
+        border-radius: 8px;
+        position: relative;right: 100px;
+
+
+      }
+      /* button for role 1 */
+      .button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .Nigeria{
+        display: flex;
+        margin-left: 50px;
+      }
+      .USA{
+        display: flex;
+
+
+      }
+      .Barcelona{
+        display: flex;
+        margin-right: 50px;
+
+      }
+      /* row-2 */
+
+      .row2{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+ 
+      }
+      .water-house{
+        width: 300px;
+        height: 310px;
+        border-radius: 8px;
+
+      }
+      .white-house{
+        width: 300px;
+        height: 310px;
+        border-radius: 8px;
+        position: relative;right: 310px;
+
+      }
+      /* row-2 button */
+
+       .Warsaw{
+        display: flex;
+        margin-left: 15px;
+      }
+
+      .China{
+        display: flex;
+        margin-right: 320px;
+      }
+      /* join us */
+      .join-us{
+        height: 200px;
+        display: block;
+    
+      }
+      .content{
+        margin: 100px 0 0 400px;
+        
+      }
+      #footer{
+        height: 100px;
+      }
+
+      .footer-content{
+        text-align: center;
+        text-justify: inter-word;
+      }
+
+      /* #00b39b */
+      /* #747474 */
+      /* #3d83df */
+      /* #1b2734 */
+      /* #e5faf8 */
+      /* rgb(16, 184, 184); */
+      /* rgb(198, 247, 231); */
+      
+    /* line-height: 1.75;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474; */
